@@ -1,6 +1,6 @@
 Image Enhancement Projects
 Overview
-This repository contains two Jupyter notebooks that demonstrate image enhancement techniques using convolutional neural networks (CNNs) with different activation functions. These notebooks are part of a study to evaluate the impact of activation functions on the quality of image enhancement, particularly focusing on enhancing low-light images from the LOL dataset.
+This repository contains three Jupyter notebooks that demonstrate image enhancement techniques using convolutional neural networks (CNNs) with different activation functions. These notebooks are part of a study to evaluate the impact of activation functions on the quality of image enhancement, particularly focusing on enhancing low-light images from the LOL dataset.
 
 Notebooks-
 1. Image Enhancement using ReLU
@@ -19,14 +19,14 @@ File: image-enhancement-using-leakyrelu.ipynb
 Similar in structure to the first notebook, this one implements the LeakyReLU activation function, which allows a small gradient when the unit is not active and has shown potential benefits in maintaining gradient flow in deep networks.
 
 Features:
-Incorporates LeakyReLU activation to prevent dying neurons problem common with ReLU.
+Incorporates LeakyReLU activation to prevent dying neuron problems common with ReLU.
 Similar architectural framework as the ReLU notebook for direct comparison.
 Uses PSNR for evaluating image quality after processing.
 
 Usage
 To use these notebooks:
 
-Clone the repository to your local machine or open them in an environment that supports Jupyter (e.g., JupyterHub, Google Colab).
+Clone the repository to your local machine or open it in an environment that supports Jupyter (e.g., JupyterHub, Google Colab).
 Ensure that all dependencies are installed, including TensorFlow, Keras, NumPy, OpenCV, and Matplotlib. You can install dependencies via pip:
 bash
 Copy code
